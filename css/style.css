@@ -1,0 +1,120 @@
+body {
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  margin-bottom: 0;
+}
+.hero-img {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -2;
+}
+/* breadcrumb */
+.custom-divider {
+  --bs-breadcrumb-divider: ">";
+}
+.borad {
+  border-radius: 7px;
+}
+.breadml {
+  margin-left: 30vw;
+}
+/* Akhir breadcrumb */
+.font-size {
+  font-size: 1vw;
+}
+.marbot {
+  margin-bottom: 400px;
+}
+/* video */
+video {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+.PG {
+  border-radius: 10%;
+  padding: 0 4px;
+}
+/* akhir video */
+/* navbar */
+.navbar {
+  position: relative;
+  z-index: 999;
+}
+#opacity-nav {
+  opacity: 0.5;
+}
+#opacity-nav:hover {
+  opacity: 0.8;
+}
+.kolom .small-nav:hover {
+  opacity: 1;
+  /* background-color: blue; */
+  backdrop-filter: blur(100px);
+}
+.nav-hide {
+  transform: scale(0);
+  display: none;
+  transition: 0.3s;
+}
+.navbar:hover .nav-hide {
+  transform: scale(1);
+}
+/* akhir navbar */
+/* Card */
+.img-hov {
+  transition: 0.3s;
+}
+.img-hov:hover {
+  transform: scale(1.1);
+}
+.marle {
+  margin-left: 100px;
+}
+.headerup {
+  text-align: center;
+}
+.body-card-hov {
+  top: 25%;
+  transition: 0.2s;
+  transform: scale(0);
+}
+.whole-card-hov:hover .body-card-hov {
+  transform: scale(1.1);
+}
+.whole-card-hov {
+  transition: 0.3s;
+}
+.whole-card-hov:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+/* Akhir Card */
+.alert-font-size {
+  font-size: 1.8vw;
+  margin-left: 10vw;
+}
+.alert-font-size a {
+  text-decoration: none;
+  font-style: italic;
+}
+/* Footer */
+.custom-footer {
+  /* list-style-type: none; */
+  height: 100px;
+}
+.custom-list-style {
+  list-style-type: none;
+}
+.custom-p-footer {
+  margin-left: 9.6vw;
+  max-width: 73ch;
+}
+/* Akhir Footer */
+/* Coba */
+/* Akhir Coba */

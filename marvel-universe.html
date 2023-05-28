@@ -1,0 +1,2071 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvel Universe</title>
+    <!-- Bootstrap style -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!-- My style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- breadcrumb -->
+    <div class="container-md bg-light mt-3 borad">
+      <div class="row justify-content-center">
+        <div class="colum-md-12">
+          <nav aria-label="breadcrumb" class="custom-divider breadml">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="C:\Users\Shadistick\Desktop\mini project\index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">Marvel</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir breadcrumb -->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-danger" id="exampleModalLabel">
+              Anda belum memiliki akun Disney+ Hotstar
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Silahkan daftar
+            <a href="C:\Users\Shadistick\Desktop\mini project\form.html"
+              >disini</a
+            >
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Modal -->
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg bg-black position-fixed top-0 start-0 bottom-0"
+      id="opacity-nav"
+    >
+      <div class="kolom">
+        <div class="container-fluid d-flex flex-column Akolom">
+          <a
+            class="navbar-brand"
+            href="C:\Users\Shadistick\Desktop\mini project\index.html"
+            style="transform: translateY(-305px)"
+            ><img
+              src="img/logo-d-plus.svg"
+              alt="logo disney"
+              width="45px"
+              class="ms-1"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-flex flex-column small-nav"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-4 d-flex flex-column">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  href="C:\Users\Shadistick\Desktop\mini project\form.html"
+                  ><img src="img/my-space.webp" width="30px" alt="profile" /><b
+                    class="nav-hide d-inline-block ms-3"
+                  >
+                    My Space</b
+                  ></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  href="C:\Users\Shadistick\Desktop\mini project\search.html"
+                  ><i class="bi bi-search fs-6 me-4" id="i"></i
+                  ><b class="nav-hide d-inline-block"> Search </b></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="C:\Users\Shadistick\Desktop\mini project\index.html"
+                  ><i class="bi bi-house-door-fill fs-6 me-4"></i
+                  ><b class="nav-hide d-inline-block"> Home</b></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  href="C:\Users\Shadistick\Desktop\mini project\series.html"
+                  ><i class="bi bi-tv fs-6 me-4"></i
+                  ><b class="nav-hide d-inline-block"> Series</b></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  href="C:\Users\Shadistick\Desktop\mini project\movies.html"
+                  ><i class="bi bi-camera-video fs-6 me-4"></i
+                  ><b class="nav-hide d-inline-block"> Movies</b></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  href="C:\Users\Shadistick\Desktop\mini project\originals.html"
+                  ><i class="bi bi-stars fs-6 me-4"></i
+                  ><b class="nav-hide d-inline-block"> Originals</b></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+    <!-- hero image -->
+    <img src="img/hero section/Marvel.jpg" class="hero-img" alt="" />
+    <!-- Akhir hero image -->
+    <h1 style="margin-top: 50vw" class="text-center text-light">Featured</h1>
+    <!-- Card -->
+    <div id="trending" class="carousel slide mt-2 ms-5">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card-group gap-2 mx-2 ms-5">
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/1 antman quantumania.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/2 aladdin.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/3 ant man and the wasp.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/4 aget of shield.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/5 avenger endgame.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/6 bbig mouth.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-group gap-2 mx-2 ms-5">
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/7 bonnes.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/8 mulan.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/9 dr.romantic.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/10 frozen 2.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/11 gotg.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/12 gotg2.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-group gap-2 mx-2 ms-5">
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/13 the avennger.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/14 kkn desa peanri.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/15 peterpan nad wendy.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/16 demon slayer.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/17 upin & ipin.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/18 family the unbreakable bond.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#trending"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#trending"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- akhir Card -->
+    <!-- Card New to Disney+ Hotstar (next add button and link to watch the movie page)-->
+    <h1 class="text-light marle headerup me-5">New to Disney+ Hotstar</h1>
+    <div id="newToDisney" class="carousel slide mt-2 ms-5">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card-group gap-2 mx-2 ms-5">
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/1 antman quantumania.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/2 aladdin.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/3 ant man and the wasp.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/4 aget of shield.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/5 avenger endgame.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/6 bbig mouth.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-group gap-2 mx-2 ms-5">
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/7 bonnes.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/8 mulan.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/9 dr.romantic.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/10 frozen 2.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/11 gotg.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/12 gotg2.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-group gap-2 mx-2 ms-5">
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/13 the avennger.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/14 kkn desa peanri.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/15 peterpan nad wendy.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/16 demon slayer.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/17 upin & ipin.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/18 family the unbreakable bond.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#newToDisney"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#newToDisney"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- akhir Card -->
+    <!-- Card Exclusives from indonesia (next add button and link to watch the movie page)-->
+    <h1 class="text-light marle headerup me-5 mt-5">
+      Exclusives from indonesia
+    </h1>
+    <div id="Exclusive" class="carousel slide mt-2 ms-5">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card-group gap-2 mx-2 ms-5">
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/1 antman quantumania.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/2 aladdin.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/3 ant man and the wasp.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/4 aget of shield.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/5 avenger endgame.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/6 bbig mouth.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-group gap-2 mx-2 ms-5">
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/7 bonnes.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/8 mulan.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/9 dr.romantic.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/10 frozen 2.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/11 gotg.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/12 gotg2.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-group gap-2 mx-2 ms-5">
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/13 the avennger.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/14 kkn desa peanri.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/15 peterpan nad wendy.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/16 demon slayer.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/17 upin & ipin.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+            <div
+              class="card p-0 bg-black whole-card-hov mb-5 position-relative"
+            >
+              <a href="https://www.youtube.com/">
+                <img
+                  src="img/card/trending/18 family the unbreakable bond.webp"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div
+                class="card-body body-card-hov position-absolute bottom-0 start-0 end-0 p-0"
+              >
+                <h5 class="card-title text-light font-size">
+                  2023 • 2h 4m • English • PG • Action
+                </h5>
+                <p class="card-text text-light font-size">
+                  Scott Lang and Hope van Dyne continue their adventures as they
+                  explore the Quantum Realm, interactinng with creatures and
+                  embarking onn an adventure.
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary ms-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Launch demo modal
+                </button>
+                <!-- Akhir Button trigger modal -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#Exclusive"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#Exclusive"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- akhir Card -->
+    <!-- Akhir Card -->
+    <!-- Footer -->
+    <footer class="container-fluid">
+      <div class="custom-footer d-flex mb-3 justify-content-around">
+        <ul
+          class="text-secondary justify-content-between mx-5 custom-list-style"
+        >
+          <li class="text-light fs-5"><b> Company </b></li>
+          <li>Supported Devices</li>
+          <li>Interest based Ads</li>
+        </ul>
+        <ul
+          class="text-secondary justify-content-between mx-5 custom-list-style"
+        >
+          <li class="text-light fs-5"><b> View Website in </b></li>
+          <li>Ennglish</li>
+          <li>Indonesian</li>
+        </ul>
+        <ul
+          class="text-secondary justify-content-between mx-5 custom-list-style"
+        >
+          <li class="text-light fs-5"><b> Need Help? </b></li>
+          <li>Help</li>
+          <li>Feedback</li>
+        </ul>
+        <ul
+          class="text-secondary justify-content-between mx-5 custom-list-style"
+        >
+          <li class="text-light fs-5"><b> Connect with Us </b></li>
+          <li class="gap-4 d-flex fs-5 text-light">
+            <i class="bi bi-facebook"></i><i class="bi bi-twitter"></i
+            ><i class="bi bi-instagram"></i><i class="bi bi-youtube"></i>
+          </li>
+          <li class="mt-4">
+            <a
+              href="https://play.google.com/store/apps/details?id=in.startv.hotstar.dplus&pli=1"
+              target="_blank"
+            >
+              <img src="img/footer/google-playstore.webp" width="100px" alt=""
+            /></a>
+            <a href="https://apps.apple.com/id/app/id1524156685" target="_blank"
+              ><img src="img/footer/ios-appstore.webp" width="100px" alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <p class="custom-p-footer text-secondary">
+        &#9400; 2023 Disney ad its related entities,All Rights Reserved. Content
+        subject to availability. Privacy Policy Term Of Use Supplemental Privacy
+        Policy
+      </p>
+    </footer>
+    <!-- Akhir Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
