@@ -57,12 +57,13 @@ video {
   /* background-color: blue; */
   backdrop-filter: blur(100px);
 }
+
 .nav-hide {
   transform: scale(0);
-  display: none;
   transition: 0.3s;
 }
 .navbar:hover .nav-hide {
+  margin-left: 0.8em;
   transform: scale(1);
 }
 /* akhir navbar */
